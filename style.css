@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.lamp {
+    position: absolute;
+    width: 64%;
+    height: 80%;
+    z-index: -1;
+    top: 10%;
+    left: -150px;
+    background: radial-gradient(#525252, #131313);
+    /* border-radius: 30%; */
+    clip-path: circle(30%);
+}
